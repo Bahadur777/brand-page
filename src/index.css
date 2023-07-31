@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+h1, h2, h3, h4, h5, p{
+    margin: 0;
+}
+:root{
+    --text-color:#000;
+    --bg-color:#C0392B;
+    --white-text:#fff;
+}
+.shop_btn{
+    padding: 1rem 1.5rem;
+    background: var(--bg-color);
+    border: none;
+    border-radius: .5rem;
+    font-size: 1.6rem;
+    color: var(--white-text);
+    text-transform: capitalize;
+    
+}
+.category-btn{
+    padding: 1rem 1.5rem;
+    border: 1px solid #000;
+    border-radius: .5rem;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
